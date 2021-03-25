@@ -6,14 +6,14 @@ export default {
       lang: 'en'
     },
     meta: [
-      {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: ''},
-      {name: 'theme-color', content: '#b8a2c4'},
-      {property: 'og:title', content: 'nodden'},
-      {property: 'og:author', content: 'nodden.org'},
-      {property: 'og:url', content: 'https://nodden.org'},
-      {property: 'og:image', content: 'https://avatars.githubusercontent.com/u/76267446'}
+      { charset: 'utf-8'},
+      { name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'theme-color', content: '#b8a2c4' },
+      { property: 'og:title', content: 'nodden' },
+      { property: 'og:author', content: 'nodden.org' },
+      { property: 'og:url', content: 'https://nodden.org' },
+      { property: 'og:image', content: 'https://avatars.githubusercontent.com/u/76267446' }
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/circlenodden.png'}
@@ -53,13 +53,13 @@ export default {
     '@nuxt/content'
   ],
 
+  content: {
+    liveEdit: false,
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
 
-  target: 'static',
-  router: {
-    base: '/'
-  }
 }
 

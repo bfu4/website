@@ -6,6 +6,7 @@
         Our Blog
       </div>
       <div class="column is-full m-3">
+
         <blog-post-feature
           class="column is-full"
           title="Our New Blog"
@@ -28,7 +29,19 @@
 
 <script>
 export default {
-  name: "blog"
+  name: "blog",
+  head: {
+    meta: [
+      {
+        property: "description",
+        content: 'Our blog page, where we write cool stuff.'
+      },
+      {
+        property: "og:description",
+        content: 'Our blog page, where we write cool stuff.'
+      },
+    ]
+  }
 }
 </script>
 

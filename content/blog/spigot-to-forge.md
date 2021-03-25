@@ -1,6 +1,7 @@
 <div align="center"><h1>Turning Spigot into Forge</h1></div>
 A concept, that is seemingly not too far from reality.
 
+
 ## Abstract
 Plugin development is modding, though not really considered modding by a lot of Minecraft Forge developers. That is fine.
 I'm very well aware that Spigot development as well as plugin development is probably a joke, and it's probably not
@@ -74,6 +75,7 @@ This is all very hypothetical, and to be able to do so without depending on a se
 I hope to delve more into abusing all of our capabilities on a more open-source compatible way, as well as come up with simple solutions to make big changes to the accessibilities we already have.
 
 ## Some Forge documentation & resources
+
 * Documentation: [smedix's docs](https://skmedix.github.io/ForgeJavaDocs/javadoc/forge/1.9.4-12.17.0.2051)
 * Documentation (1.16.5): [nekoyue's docs](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.16.5/)
 * 1.16 Mappings: [the 1.16 mapping project](https://docs.google.com/spreadsheets/d/14knNUYjYkKkGpW9VTyjtlhaCTUsPWRJ91GLOFX2d23Q/)

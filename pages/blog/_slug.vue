@@ -5,11 +5,13 @@
 </template>
 
 <script>
+
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('blog', params.slug).fetch();
+    const article = await $content('/blog', params.slug).fetch();
     return { article };
-  }
+  },
+  slug: '/blog'
 }
 </script>
 <style lang="css">
